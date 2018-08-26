@@ -8,7 +8,7 @@
   <li><a href="//codemirror.net">codemirror</a>
   </li>
   
-  <li><a href="//w3schools.com/css">W3.css</a>
+  <li><a href="//www.w3schools.com/w3css/4/w3.css">W3.css</a>
   </li>
  </ul>
  <h2>Project Repo</h2><a href="//github.com/zikama/simplewebeditor">WebEditor</a>

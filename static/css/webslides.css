@@ -1334,8 +1334,28 @@ header[role='banner'] {
     /*padding-left: 6rem;*/
     vertical-align: middle;
     width: 4.8rem; }
+	/*These are addons, not available in every webslides.css file/repo*/
 .min-opacity{
 	opacity:.2541
+}
+.update-message-body{
+	position:fixed;bottom:150px;left:10px;right:10px;background:rgb(66,6,44);z-index:1854;color:#ccc;
+	text-align:center;padding-left:25%;
+}
+@media screen and (max-width: 650px){
+.update-message-body{
+	position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    display: flex !important; 
+	max-width:100% !important;padding-left:1% !important;
+	}
+}
+@media screen and (min-width: 120px){
+.update-message-body{ 
+    max-width:90%;width:100%;position:fixed  !important;bottom:70px;left:70px;padding-left:15%;
+   }
 }
 /*=========================================
 4. Navigation

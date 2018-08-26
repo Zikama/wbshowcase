@@ -88,7 +88,7 @@
           <div class="wrap">
               <h4><strong>Webeditor-D & How To</strong></h4>
               <blockquote class="text-quote">
-                  <p class="text-intro"> Webeditor is a static web page that you can easily ise and test your code, How do you feel about taking Sublime into a Browser?</p>
+                  <p class="text-intro"> Webeditor is a static web page that you can easily use and test your code, How do you feel about taking Sublime into a Browser?</p>
                 <p>1. To preview, Press the Run button.</p>
                 <p>2. To Save your code, Press the Save button and fill a popup form.</p>
                 <p>3. And For live preview, Press the switch button to toggle AutoRun mode.</p>
@@ -106,7 +106,7 @@
           <div class="wrap">
             <div class="grid vertical-align">
               <div class="column-lg">
-                <figure class="fxm-top"><img class="aligncenter" src="./static/images/screenshoot.png" alt="iPhone"></figure>
+                <figure class="fxm-top"><img class="aligncenter" src="./static/images/screenshoot.png" alt="screenshot for WB"></figure>
               </div>
               
             </div>
@@ -135,42 +135,18 @@
           </div>
           <!-- .end .wrap -->
         </section>
-      </article>
+	
+      </article>	<div id="update-message"></div>
     </main>
     <!--main-->
 
     <!-- Required -->
     <script src="./static/js/webslides.js"></script>
 
-    <script>
-      window.ws = new WebSlides();
-	  //Short hand Selector function 
-	  g=(k)=>document.querySelector(k);
-	  //Short hand function for Creating Elements
-	  create=(k)=>document.createElement(k);
-	  //Short hand function for Appending Children/child
-	  append=(k)=>document.appendChild(k);
-	  //Short hand function for Insert Before
-	  insB=(k,l,f)=>k.insertBefore(l,k.childNodes[f]);
-	  const allS = g(".allowMe");
-	  //Let's add some content to the #webslides-zoomed or All slides container
-	  const wel=g("#webslides-zoomed");
-	  //Let's create a div element and add it to All slides container
-	  let welcomed = create("div");
-	  let welcom = create("span");
-	  welcom.append(welcomed);
-	      welcom.classList.add("content-center");
-	      welcomed.classList.add("bg-yellow");
-	      welcomed.innerHTML = "Welcome, Choose a slide"; 
-	  //Let's create another div element and add it at the bottom of All slides container
-	  let titl = create("div");
-	      titl.classList.add("content-center");
-	      titl.innerHTML = "These are all slides i have";
-		  insB(wel,welcom,0);
-		  insB(wel,titl,4);
- //Trigger clck for All Slides when loading page
-	allS.click();
-    </script>
+    <!--main-->
+    <script src="./static/js/control.js"> </script>
+    <!--main-->
+    <script src="./static/js/main.js"> </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
     <script defer src="./static/js/svg-icons.js"></script>
